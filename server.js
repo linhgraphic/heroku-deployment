@@ -13,7 +13,7 @@ app.get("/", (request, response) =>
 );
 
 // port to listen on
-// const port = 3000;
+//const port = 8080;
 const port = process.env.PORT;
 
 // start the server on the given port
